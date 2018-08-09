@@ -3,19 +3,6 @@ i am trying to integrate the sharing function of Natshare into Natcorder
 
 This is the code i am using, no errors but after recording i only get the replay and the file saves to the right lcoation.
 
-/* 
-*   NatCorder
-*   Copyright (c) 2018 Yusuf Olokoba
-*/
-
-namespace NatCorderU.Examples {
-
-    using UnityEngine;
-    using UnityEngine.UI;
-    using System.Collections;
-    using Core;
-    using Object = UnityEngine.Object;
-    using NatShareU;
 
     public class ReplayCam : MonoBehaviour {
 

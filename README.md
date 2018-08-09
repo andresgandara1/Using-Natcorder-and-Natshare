@@ -64,10 +64,11 @@ This is the code i am using, no errors but after recording i only get the replay
             NatShare.SaveToCameraRoll(path);
             NatShare.Share(path);
             // Playback the video
+            Handheld.PlayFullScreenMovie(path);
 #if UNITY_IOS
             Handheld.PlayFullScreenMovie("file://" + path);
 #elif UNITY_ANDROID
-            Handheld.PlayFullScreenMovie(path);
+            
 
 #endif
         }
